@@ -31,8 +31,8 @@ function Home() {
         <img src={climate} alt='climate' className='w-full h-full object-cover
         transform transition-transform duration-300 group-hover:scale-105' />
         <div className='absolute left-0 bottom-3 w-full text-left p-3'>
-          <span className='text-white text-base font-semibold '>RESEARCH</span> <br/>
-          <span className='text-white text-3xl font-bold'>How climate change threatens health and what it means for us</span>
+          <span className='text-white text-xs md:text-base font-normal md:font-semibold '>RESEARCH</span> <br/>
+          <span className='text-white text-xs md:text-3xl font-bold'>How climate change threatens health and what it means for us</span>
           <ArrowLongRightIcon className='w-8 h-8 text-white'/> 
         </div>
       </div>
